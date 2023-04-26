@@ -8,10 +8,8 @@ body{
     box-sizing: border-box;
 }
 
-button{
-    border: none;
-}
-
+button{border: none;}
+ul{list-style-type: none;}
 main{
     display: flex;
     height: calc(100vh - 90px);
@@ -53,4 +51,26 @@ nav{
 .upgrade:hover{
     padding: 12px 30px;
     font-size: 15px;
+}
+
+.nav-bar{
+    width: 60%;
+    margin: 0 auto;
+}
+.nav-bar ul{
+    display: flex;
+    justify-content: space-between;
+}
+.contents ul li{
+    color: rgba(116,118,123,255);
+    padding: 1rem 0;
+    font-size: 14px;
+}
+.contents ul li:hover{
+    color: #fff;
+}
+
+#evidence{
+    border-bottom: 1.5px solid rgba(66,95,37,255);
+    
 }
