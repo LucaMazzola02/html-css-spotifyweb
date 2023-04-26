@@ -147,3 +147,89 @@ nav{
 .round-img{
     border-radius: 50%;
 }
+
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.logo{
+    width: 60%;
+    padding: .7rem 0;
+}
+
+.top-nav{
+    color: rgba(100,100,100,255);
+    font-size: 12px;
+}
+
+.top-nav ul li{
+    margin: .7rem 0;
+    padding-left: 0.7rem;
+}
+
+.top-nav ul li:hover{
+    color: #fff;
+}
+
+.home{
+    color: #fff;
+    border-left: 2px solid rgba(173,255,47,255);
+}
+
+.icon img,
+.home img{
+    width: 24px;
+    vertical-align: middle;
+    margin-right: 7px;
+}
+
+.top-nav h2{
+    font-size: 14px;
+    color: #fff;
+    margin-top: 1.4rem;
+    padding-left: 0.7rem;
+}
+
+.add{
+    background-color: rgba(100,100,100,255);
+    padding: 5px 5px;
+    margin-right: 7px;
+}
+
+
+.bottom-nav{
+    padding: 0 .7rem;
+}
+.download{
+    border-bottom: 1px solid rgba(107,107,107,255);
+    padding: .4rem 0;
+    color: rgba(107,107,107,255);
+    font-size: 12px;
+    padding-bottom: .4rem;
+
+}
+.download img{
+    color: rgba(107,107,107,255);
+    width: 10px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.profile{
+    padding: .4rem 0;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.profile img{
+    width: 25px;
+    height: 25px;
+    background-color: rgba(128,128,128,255);
+    border-radius: 50%;
+    margin-right: 8px;
+    vertical-align: middle;
+    padding: 1.5%;
+}
