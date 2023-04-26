@@ -28,7 +28,7 @@ nav{
 .contents{
     width: calc(100% - 220px);
     background-color: rgba(20,25,34,255);
-    overflow: scroll;
+    overflow-y: scroll;
 }
 
 .top-band{
@@ -55,7 +55,7 @@ nav{
 }
 
 .nav-bar{
-    width: 60%;
+    width: 65%;
     margin: 0 auto;
     margin-bottom: 2rem;
 }
@@ -67,6 +67,7 @@ nav{
     color: rgba(116,118,123,255);
     padding: 1rem 0;
     font-size: 14px;
+    margin: 0 1rem;
 }
 .contents ul li:hover{
     color: #fff;
@@ -79,19 +80,28 @@ nav{
 
 .container{
     padding: 0 1%;
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 3rem;
 }
 
-.container h1{
-    font-size: 25px;
-}
 
 .contents h1{
     color: #fff;
+    font-size: 25px;
+    padding: 0 1%;
+}
+
+.contents p{
+    color: rgba(111,113,119,255);
+    font-size: 12px;
+    padding: 0 1%;
+    margin: .4rem 0;
 }
 
 .cards{
     margin-top: 1rem;
-    width: calc((100% / 6) - 3rem);   
+    width: calc(100% / 6);   
 }
 
 
@@ -111,7 +121,29 @@ nav{
     margin: .4rem 0;
 }
 
-.title p{
-    color: rgba(111,113,119,255);
-    font-size: 12px;
+@media (max-width: 992px) {
+    .container{
+        flex-wrap: wrap;
+    }
+    .cards{
+        width: calc((100% / 4) - .8rem);   
+    }
+
+    .nav-bar{
+        width: 100%;
+    }
+    .nav-bar ul{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .cards{
+        width: calc((100% / 2) - .5rem);   
+    }
+}
+
+.round-img{
+    border-radius: 50%;
 }
