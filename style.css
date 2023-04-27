@@ -263,10 +263,39 @@ nav{
         border: none;
     }
     .download{
-        padding-left: 14.85px;
+        width: 14px;
+        padding-left: 15px;
     }
     .profile{
         padding-left: 8px;
     }
     
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 0 1%;
+}
+.right-footer i{
+    margin: 0 5px;
+}
+.footer-icon{
+    color: #fff;
+}
+.band{
+    display: inline-block;
+    height: 4px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: rgba(90,90,90,255);
+    margin-bottom: 4px;
+}
+.band-point{
+    height: 100%;
+    width: 20%;
+    background-color: rgba(193,193,193,255);
+    border-radius: 5px 0 0 5px;
 }
