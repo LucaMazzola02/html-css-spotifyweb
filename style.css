@@ -333,13 +333,15 @@ footer{
     display: inline-block;
     margin-left: 20px;
 }
+.left-footer{
+    display: flex;
+}
 
-
-.left-footer i{
-    margin: 0 3px;
-    vertical-align: text-top;
+.gudjet i{
+    margin: 0 5px;
     color: rgba(127,127,127,255);
 }
+
 .left-footer i:hover,
 .description p:hover{
     color: #fff;
@@ -435,4 +437,32 @@ footer{
 }
 .band-point:hover .right-point{
     display: block;
+}
+
+@media (max-width: 768px) {
+  .middle-band{
+    width: 200px;
+  }
+  .gudjet{
+    text-align: center;
+    margin-left: 0;
+  }
+  .gudjet i{
+    
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  .right-footer{
+    text-align: center;
+  }
+  .band{
+    display: block;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+    .middle-band{
+        width: 150px;
+      }
 }
